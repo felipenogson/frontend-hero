@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛹</text></svg>">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Hero - 6</title>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="" class="logo">Skateboarding</a>
+            <div class="toggle" onclick="toggleMenu();"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        </header>
+        <div class="content">
+            <h2>Dream <br> Trick</h2>
+        </div>
+        <div class="play" onclick="toggleVideo();">
+            <i class="fa fa-play-circle" aria-hidden="true"></i>
+            <span>Play Video</span>
+        </div>
+        <ul class="sci">
+            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></i></li>
+            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-reddit" aria-hidden="true"></i></a></li>
+        </ul>
+        <div class="navigation">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Lessons</a></li>
+                <li><a href="">Photos</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="trailer">
+        <video src="./video.mp4" id="trailer" controls="true"></video>
+        <i class="fa fa-window-close-o close" onclick="closeVideo();" aria-hidden="true"></i>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

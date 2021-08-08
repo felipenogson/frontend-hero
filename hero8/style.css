@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+body{
+    font-weight: 300;
+}
+
+a:hover{
+    color: #da7635;
+}
+
+.navbar{
+    padding: 1.5rem;
+}
+
+.nav-logo{
+    width: 50px;
+}
+
+.navbar-brand{
+    font-family: "Raleway";
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.navbar-brand span{
+    vertical-align: bottom;
+    margin-left: -10px;
+}
+
+.navbar .nav-item .nav-link{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding-bottom: 0px;
+    padding: 1rem;
+    font-weight: 400;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #da7635;
+}
+
+.jumbotron{
+    background: linear-gradient(rgba(29, 15, 6, 0.6), rgba(29, 15, 6,0.6)), url('./background.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.masterhead {
+    padding-top: 10px;
+    margin-top: -20px;
+}
+
+.masterhead-logo{
+    width: 350px;
+}
+
+.masterhead-title{
+    margin-top: -40px;
+    font-family: "Raleway";
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.masterhead-subtitle{
+    font-size: 2em;
+}
+
+hr.small{
+    max-width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr.primary{ 
+    border-color: #da7635;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    height: .125rem;
+}
+
+.masterhead-scroll{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.masterhead-scroll-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 50px;
+}
+
+.masterhead-scroll-btn:hover{
+    animation: bounce;
+    animation-duration: 1.5s;
+}
+
+section {
+    padding: 6rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.page-section-heading{
+    font-family: "Raleway";
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+}

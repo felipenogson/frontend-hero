@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.3)),url('nathan-dumlao-KixfBEdyp64-unsplash.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    border-radius: 0px!important;
+}
+
+.jumbotron h1{
+    font-family: 'Noto Serif';
+}
+
+.intro{
+    padding-top: 160px;
+}
+
+.navbar-nav a {
+    color: #ffffff!important;
+    margin: 0 20px;
+    margin-top: 30px;
+}
+
+.navbar-toggler{
+    color: #ffffff!important;
+    border: none!important;
+    outline: none!important;
+}
+
+.navbar-toggler .fa {
+    color: #fff;
+    font-size: 26px;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+}
+
+#header .btn {
+    border: 1px solid #fff;
+    margin-top: 20px;
+    padding: 6px 26px;
+    font-size: 16px;
+}
